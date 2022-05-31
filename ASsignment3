@@ -1,0 +1,49 @@
+1. Why are functions advantageous to have in your programs?
+  we can call function where ever we want in the programme 
+  it reduces the line of code
+  increses reusablity
+  
+
+2. When does the code in a function run: when it's specified or when it's called?
+when its called
+
+3. What statement creates a function?
+def
+
+4. What is the difference between a function and a function call?
+A function is a piece of code which enhanced the reusability and modularity of your program. It means that piece of code need not be written again. A function call means invoking or calling that function
+
+
+5. How many global scopes are there in a Python program? How many local scopes?
+
+
+6. What happens to variables in a local scope when the function call returns?
+A local variable retains its value until the next time the function is called
+A local variable becomes undefined after the function call completes
+
+7. What is the concept of a return value? Is it possible to have a return value in an expression?
+The value that a function returns to the caller is generally known as the function’s return value
+yes
+
+8. If a function does not have a return statement, what is the return value of a call to that function?
+In this case, the return value of the called function is undefined.
+
+9. How do you make a function variable refer to the global variable?
+ a global variable in a function, we can use the global keyword to declare which variables are global
+ 
+ 
+10. What is the data type of None?
+None is a data type of its own (NoneType
+
+11. What does the sentence import areallyourpetsnamederic do?
+imports a module named areallyourpetsnamederic.
+
+12. If you had a bacon() feature in a spam module, what would you call it after importing spam?
+spam.bacon()
+
+13. What can you do to save a programme from crashing if it encounters an error?
+use try catch blocks or exception handling
+
+14. What is the purpose of the try clause? What is the purpose of the except clause?
+The try block lets you test a block of code for errors. The except block lets you handle the error
+
